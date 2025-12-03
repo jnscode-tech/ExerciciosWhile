@@ -14,9 +14,7 @@ echo "<strong>Resultado de 3 elevado a 4</strong>"."<br>"."<br>";
 while($contador <= $expoente){
     $resultado *= $base; // multiplica o resultado pela base
     $contador++;         // incrementa o contador
+    echo "O 3 elevado a 4 é:". $resultado."<br>";
 }
 
-echo "O 3 elevado a 4 é: " . $resultado;
-
- 
 ?>
