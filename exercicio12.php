@@ -9,6 +9,7 @@ echo"<strong>Soma dos pares no intervalo de 01 a 20. </strong>"."<br>"."<br>";
 while($contador <=20){
 
       if($contador %2 == 0){
+            //$resultado = $resultado + $contador;
             $resultado +=$contador; 
  
       }
